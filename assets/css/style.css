@@ -1,4 +1,5 @@
 
+
 :root {
 
   /**
@@ -49,9 +50,10 @@
    * box shadow
    */
 
-  --shadow-1: 0 0 20px hsla(216, 14%, 14%, 0.05);
-  --shadow-2: 0 0 0 0.05rem hsla(214, 88%, 27%, 0.08), 0 0 1.25rem hsla(216, 14%, 14%, 0.06);
-  --shadow-3: 0 0 1.25rem hsla(216, 14%, 14%, 0.04);
+  --shadow-1: 0 0 20px hsla(0, 81%, 42%, 0.05);
+  --shadow-2: 0 0 0 0.05rem hsla(0, 100%, 47%, 0.08), /*container outline */
+              0 0 1.25rem hsla(216, 98%, 50%, 0.06);   /*container shadow */
+  --shadow-3: 0 0 1.25rem hsla(0, 100%, 50%, 0.04);  /*Join-container shadow  */
 
   /**
    * border radius
@@ -135,6 +137,7 @@ body {
 
 body.nav-active { overflow: hidden; }
 
+/*the scrollball colours */
 ::-webkit-scrollbar { width: 10px; }
 
 ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 98%); }
