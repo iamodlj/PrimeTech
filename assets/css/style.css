@@ -124,7 +124,7 @@ address { font-style: normal; }
 
 html {
   font-family: var(--ff-manrope);
-  font-size: 10px;
+  font-size: 15px;
   scroll-behavior: smooth;
 }
 
@@ -151,7 +151,7 @@ body.nav-active { overflow: hidden; }
 
 
 /*-----------------------------------*\
-  #REUSED STYLE
+  #Content
 \*-----------------------------------*/
 
 .container { padding-inline: 16px; }
@@ -226,7 +226,7 @@ body.nav-active { overflow: hidden; }
 .img-cover {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit:cover;
 }
 
 .section-subtitle {
@@ -1092,4 +1092,144 @@ body.nav-active { overflow: hidden; }
 
   .feature-list { grid-template-columns: 1fr 1fr; }
 
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.contact-body {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.contact-section {
+  padding: 20px;
+}
+
+.contact-section .contact-container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.contact-section .profile-card {
+  background-color: #2b2b2b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.contact-section .profile-picture {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-section h2 {
+  font-size: 22px;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.contact-section .role {
+  color: #aaa;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contact-section .contact-info {
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.contact-section .contact-info p {
+  margin: 10px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-section .contact-info p .icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.contact-section .social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section .social-icons a {
+  color: #ffd700;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.contact-section .contact-details {
+  width: 70%;
+}
+
+.contact-section .contact-details h2 {
+  font-size: 24px;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.contact-section .map-container {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.contact-section .contact-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #2b2b2b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-section .contact-form input, 
+.contact-section .contact-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3c3c3c;
+  color: #f5f5f5;
+  font-size: 15px;
+}
+
+.contact-section .contact-form input::placeholder,
+.contact-section .contact-form textarea::placeholder {
+  color: #b5b5b5;
+}
+
+.contact-section .contact-form button {
+  background-color: #ffd700;
+  color: #333;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.contact-section .contact-form button:hover {
+  background-color: #e0c400;
 }
