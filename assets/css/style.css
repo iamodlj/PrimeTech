@@ -1323,3 +1323,72 @@ body.nav-active { overflow: hidden; }
   }
 
 }
+
+/*-----------------------------------*\
+  #TERMS & PRIVACY SECTIONS
+\*-----------------------------------*/
+
+.terms,
+.privacy {
+  background-color: var(--cultured);
+}
+
+.terms .container,
+.privacy .container {
+  max-width: 800px;
+}
+
+.terms-content,
+.privacy-content {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: var(--radius-10);
+  box-shadow: var(--shadow-1);
+  margin-block-start: 30px;
+}
+
+.terms-content .h3,
+.privacy-content .h3 {
+  color: var(--charcoal);
+  margin-block: 30px 15px;
+  padding-block-start: 20px;
+  border-top: 1px solid var(--cadet-blue-crayola_a20);
+}
+
+.terms-content .h3:first-child,
+.privacy-content .h3:first-child {
+  margin-block-start: 0;
+  padding-block-start: 0;
+  border-top: none;
+}
+
+.terms-content .section-text,
+.privacy-content .section-text {
+  line-height: 1.8;
+  margin-block-end: 20px;
+}
+
+.terms-content a,
+.privacy-content a {
+  color: var(--violet-blue-crayola);
+  text-decoration: underline;
+  transition: var(--transition-1);
+}
+
+.terms-content a:hover,
+.privacy-content a:hover {
+  color: var(--charcoal);
+}
+
+/**
+ * TERMS & PRIVACY RESPONSIVE
+ */
+
+@media (min-width: 768px) {
+  
+  .terms-content,
+  .privacy-content {
+    padding: 60px;
+  }
+
+}
