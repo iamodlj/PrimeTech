@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Contact Us - PrimeTech Solution</title>
+  <meta name="title" content="PrimeTech">
+  <meta name="description" content="Contact PrimeTech Solution for all your technology needs">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/logo-dark.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo-light.svg" width="74" height="24" alt="PrimeTech" class="logo-light">
+
+        <img src="./assets/images/logo-dark.jpg" width="74" height="24" alt="PrimeTech" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo-dark.svg" width="74" height="24" alt="PrimeTech">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@primetechsolution.com" class="contact-link">info@primetechsolution.com</a>
+
+          <a href="tel:00233208894620" class="contact-link"> (233) 20 889 4620</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #CONTACT HERO SECTION
+      -->
+
+      <section class="section hero has-bg-image" aria-label="contact"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Contact Us</h1>
+
+            <p class="hero-text">
+              Get in touch with PrimeTech Solution for all your technology needs
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CONTACT FORM SECTION
+      -->
+
+      <section class="section contact" aria-labelledby="contact-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="contact-label">Get In Touch</p>
+
+          <h2 class="h2 section-title">
+            Ready to work with us? Let's talk about your project.
+          </h2>
+
+          <div class="contact-wrapper">
+            
+            <div class="contact-form">
+              <h3 class="h3">Send us a message</h3>
+              
+              <form action="" class="contact-form-grid">
+                <div class="input-wrapper">
+                  <label for="fullname" class="input-label">Full Name</label>
+                  <input type="text" name="fullname" id="fullname" required class="input-field" placeholder="Your full name">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="email" class="input-label">Email Address</label>
+                  <input type="email" name="email" id="email" required class="input-field" placeholder="Your email address">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="phone" class="input-label">Phone Number</label>
+                  <input type="tel" name="phone" id="phone" class="input-field" placeholder="Your phone number">
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="subject" class="input-label">Subject</label>
+                  <input type="text" name="subject" id="subject" required class="input-field" placeholder="Subject of your message">
+                </div>
+
+                <div class="input-wrapper full-width">
+                  <label for="message" class="input-label">Message</label>
+                  <textarea name="message" id="message" rows="5" required class="input-field" placeholder="Tell us about your project or inquiry"></textarea>
+                </div>
+
+                <div class="input-wrapper full-width">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="contact-info">
+              <h3 class="h3">Contact Information</h3>
+              
+              <ul class="contact-info-list">
+                <li class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <ion-icon name="location-outline"></ion-icon>
+                  </div>
+                  <div class="contact-info-content">
+                    <p class="contact-info-title">Address</p>
+                    <address class="contact-info-text">East Legon, Ghana</address>
+                  </div>
+                </li>
+
+                <li class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                  </div>
+                  <div class="contact-info-content">
+                    <p class="contact-info-title">Phone</p>
+                    <a href="tel:00233208894620" class="contact-info-text">(+233) 20 889 4620</a>
+                  </div>
+                </li>
+
+                <li class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </div>
+                  <div class="contact-info-content">
+                    <p class="contact-info-title">Email</p>
+                    <a href="mailto:info@primetechsolution.com" class="contact-info-text">info@primetechsolution.com</a>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="contact-social">
+                <p class="contact-social-title">Follow Us</p>
+                <ul class="social-list">
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="contact-company-info">
+                <h4 class="h4">PrimeTech Solution</h4>
+                <p class="contact-company-text">
+                  We empower your tech experience with top-notch accessories that blend innovation and style.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!--#FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo-light.svg" width="74" height="24" alt="PrimeTech">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 PrimeTech Solution. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            East Legon, Ghana
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@primetechsolution.com" class="footer-link">info@primetechsolution.com</a>
+        </li>
+
+        <li>
+          <a href="tel:00233208894620" class="footer-link">(+233) 20 889 4620</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="about.html" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
